@@ -1,6 +1,6 @@
 import assemblyai as aai
 
-aai.settings.api_key = "46de903eec3e48c6858df556aa1b3518"
+aai.settings.api_key = ""
 transcriber = aai.Transcriber()
 
 transcript = transcriber.transcribe("video.mp4")
